@@ -1,0 +1,6 @@
+{
+  "name": "SS Photography",
+  "description": "Premium photography portfolio of Simphiwe Sithole capturing life's most precious family and lifestyle moments in South Africa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

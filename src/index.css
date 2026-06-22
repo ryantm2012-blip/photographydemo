@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-cream: #fbf9f5;
+  --color-cream-dark: #f5eedf;
+  --color-beige: #f3ebe1;
+  --color-beige-dark: #e8dccb;
+  --color-sage: #e3ece4;
+  --color-sage-dark: #4f5d53;
+  --color-dusty-blue: #e5edf1;
+  --color-dusty-blue-dark: #50616b;
+  --color-peach: #fae9e2;
+  --color-peach-dark: #91685a;
+  --color-lavender: #f0edf5;
+  --color-lavender-dark: #6a607a;
+  --color-charcoal: #1e1b18;
+  --color-charcoal-light: #524c46;
+  --color-warm-white: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-charcoal-light);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Custom fine-scrollbar for a luxury look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-beige-dark);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-charcoal-light);
+}
