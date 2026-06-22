@@ -1,15 +1,25 @@
 import { GalleryItem, ServiceItem, TestimonialItem, FactItem } from "./types";
 
+// Import images as ES modules so Vite compiles and bundles them correctly
+import heroSunset from "./assets/images/sunset_family_hero_1782116276747.jpg";
+import simphiwePortrait from "./assets/images/simphiwe_sithole_portrait_1782116295421.jpg";
+import graduationPortrait from "./assets/images/graduation_portrait_1782116311225.jpg";
+import maternityPhotoshoot from "./assets/images/maternity_photoshoot_1782116327680.jpg";
+import coupleBeachWalk from "./assets/images/couple_beach_walk_1782116346336.jpg";
+import familyParkPicnic from "./assets/images/family_park_picnic_1782117697179.jpg";
+import motherDaughterSofa from "./assets/images/mother_daughter_sofa_1782117715789.jpg";
+import outdoorLifestyleFamily from "./assets/images/outdoor_lifestyle_family_1782117734938.jpg";
+
 // Bespoke generated assets with specific timestamped filenames
 export const CUSTOM_IMAGES = {
-  heroSunset: "/src/assets/images/sunset_family_hero_1782116276747.jpg",
-  simphiwePortrait: "/src/assets/images/simphiwe_sithole_portrait_1782116295421.jpg",
-  graduationPortrait: "/src/assets/images/graduation_portrait_1782116311225.jpg",
-  maternityPhotoshoot: "/src/assets/images/maternity_photoshoot_1782116327680.jpg",
-  coupleBeachWalk: "/src/assets/images/couple_beach_walk_1782116346336.jpg",
-  familyParkPicnic: "/src/assets/images/family_park_picnic_1782117697179.jpg",
-  motherDaughterSofa: "/src/assets/images/mother_daughter_sofa_1782117715789.jpg",
-  outdoorLifestyleFamily: "/src/assets/images/outdoor_lifestyle_family_1782117734938.jpg",
+  heroSunset,
+  simphiwePortrait,
+  graduationPortrait,
+  maternityPhotoshoot,
+  coupleBeachWalk,
+  familyParkPicnic,
+  motherDaughterSofa,
+  outdoorLifestyleFamily,
 };
 
 // Hand-curated professional photography gallery items mapping to the user's exactly 10 requests:
